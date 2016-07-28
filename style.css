@@ -1,0 +1,116 @@
+/*
+ Theme Name:   Twenty Fifteen Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     _tk-master
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+
+/* This Changes The Background of the nav bar*/
+.site-navigation{
+	background: #0288D1;
+	border-style: solid;
+    border-width:2ppx;
+    border-color: #0288D1;
+}
+
+/*this changes the navbar background color and adds a border with a marron color */
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	background-color: #009688;
+	border-style: none;
+	border-color: none;
+}
+
+/*changes the color of the navbar tet to white*/
+.navbar-default .navbar-brand{
+	color: white;
+}
+
+/*changes the rest of the navbar color text to white*/
+.navbar-default .navbar-nav>li>a{
+	color:white;
+}
+/*changes the back ground of the header*/
+.site-header-inner{
+	background-color: #03A9F4;
+	color:white;
+	border-style: solid;
+    border-width:50px;
+    border-color: #03A9F4;
+}
+/*changes the links to black*/
+a{
+	color:black;
+}
+/*changes the title of the page to black*/
+.page-tittle{
+	color:black;
+}
+/*when click on the navbae it will change he background to white and keep the text color black*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background-color: white;
+}
+/*when hovered over the navbar it will hover with a darker shade of pink with black text*/
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	background-color: #00877a;
+	color: white;
+}
+/* changes the color when hover*/
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+	background-color: #00877a;
+	color:white;
+}
+/*this changes the font for the body*/
+body{
+	font-family: Arimo;
+}
+/* the font font that changes i the header*/
+header{
+	font-family: Didact Gothic;
+}
+/* doesn't display "evelyn;s portfolio "*/
+.lead{
+	display: none;
+}
+/* makes the search bar disappear doesnt appear anymore*/
+input[type=search]{
+	display: none;
+}
+/* changeed the size in the jumbotron*/
+.container .jumbotron, .container-fluid .jumbotron{
+	height: 300px;
+    width: 50%;
+}
+/* when on the button changes the background color*/
+.btn-group-lg>.btn, .btn-lg{
+	background-color: #009688;
+}
+/* when hovered over the button will be the pibnkish color*/
+.btn-primary:hover{
+	background-color: #009688;
+}
+/* changed the background color of the jumbotron*/
+.container .jumbotron, .container-fluid .jumbotron{
+	background-color:#B3E5FC;
+}
+/*this makes the header 3 disappear from the page*/
+ .h3, h3{
+ 	display: none;
+ }
+/*changes the porfolio css*/
+ .hackathon-image{
+ 	float: right;
+ 	border-style:inset;
+ 	border-color:maroon;
+ }
+.porfolio-image{
+	float: left;
+ 	border-style:inset;
+ 	border-color:maroon;
+}
