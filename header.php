@@ -23,7 +23,7 @@
 
 <body <?php body_class(); ?>>
 	<?php do_action( 'before' ); ?>
-<nav class="site-navigation">
+<nav class="site-navigation navbar-fixed-top">
 <?php // substitute the class "container-fluid" below if you want a wider content area ?>
 	<div class="container-fluid">
 		<div class="row">
@@ -63,10 +63,10 @@
 </nav><!-- .site-navigation -->
 <header id="masthead" class="site-header" role="banner">
 <?php // substitute the class "container-fluid" below if you want a wider content area ?>
-<h1 class"tittle"> Our Wedddiing</h1>
 	<div class="container-fuild">
 		<div class="row">
 			<div class="site-header-inner col-sm-12">
+				<h1 class"tittle"> Our Wedddiing</h1>
 
 				<?php $header_image = get_header_image();
 				if ( ! empty( $header_image ) ) { ?>
