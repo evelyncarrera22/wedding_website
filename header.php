@@ -66,7 +66,7 @@
 	<div class="container-fuild">
 		<div class="row">
 			<div class="site-header-inner col-sm-12">
-				<h1 class"tittle"> Our Wedddiing</h1>
+				<h1 class"tittle"> Our Wedding</h1>
 
 				<?php $header_image = get_header_image();
 				if ( ! empty( $header_image ) ) { ?>

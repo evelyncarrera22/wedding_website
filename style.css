@@ -11,18 +11,19 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-fifteen-child
 */
-
+@import url"https://www.google.com/fonts/specimen/Dancing+Script"
+@import url"https://www.google.com/fonts/specimen/EB+Garamond"
 /* This Changes The Background of the nav bar*/
 .site-navigation{
-	background: #0288D1;
+	background: #413D76;
 	border-style: solid;
     border-width:2ppx;
-    border-color: #0288D1;
+    border-color: #413D76;
 }
 
 /*this changes the navbar background color and adds a border with a marron color */
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
-	background-color: #009688;
+	background-color:  teal;
 	border-style: none;
 	border-color: none;
 }
@@ -38,11 +39,11 @@
 }
 /*changes the back ground of the header*/
 .site-header-inner{
-	background-color: #03A9F4;
+	background-color:#524e97;
 	color:white;
 	border-style: solid;
     border-width:50px;
-    border-color: #03A9F4;
+    border-color:#524e97;
 }
 /*changes the links to black*/
 a{
@@ -68,11 +69,13 @@ a{
 }
 /*this changes the font for the body*/
 body{
-	font-family: Arimo;
+	font-family: EB Garamond;
+	color:#8C6F49;
+
 }
 /* the font font that changes i the header*/
-header{
-	font-family: Didact Gothic;
+.h1, .h2, .h3, h1, h2, h3{
+	font-family:Dancing Script;
 }
 /* doesn't display "evelyn;s portfolio "*/
 .lead{
